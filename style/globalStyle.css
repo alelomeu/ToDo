@@ -1,0 +1,16 @@
+:root{
+    font-family: 'Roboto', sans-serif;
+    --purple-darkness: #231942;
+    --purple: #5E548E;
+    --pulple-suport: #9F86C0;
+    --purple-lightness: #BE95C4;
+    --rose: #f7d4e7;
+    --gray-lightness: rgb(148, 147, 147);
+    --gray-light: rgb(197, 194, 194);
+    --gray-darkness: rgb(65, 63, 63);
+    --modal-bg:rgba(65, 63, 63, 0.441);
+    --cursor: pointer;
+ 
+
+}
+

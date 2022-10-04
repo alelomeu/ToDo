@@ -1,0 +1,72 @@
+.create-category{
+    font-family: 'Roboto', sans-serif; 
+    color: var(--purple-lightness);
+    border: none;
+    border-radius: 8px;
+    background-color: var(--purple-darkness);
+}
+
+.create-category:hover {
+    opacity: 70%;
+}
+
+
+.trash-button {
+    background-image: url("../assets/trash.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 0.7rem;
+    height: 1rem;
+    border: none;
+    background-color: transparent;
+  
+}
+
+.trash-button:hover {
+    box-shadow: 2px 2px 5px var(--gray-lightness);
+}
+
+.create-task {
+    background: none;
+    border: none;
+    align-self: center;
+    height: min-content;
+    font-size: 1rem;
+}
+.create-task:hover {
+    font-size: 1.5rem;
+}
+
+#close-modal-button {
+    font-family: 'Roboto', sans-serif; 
+    color: var(--purple-lightness);
+    border: none;
+    border-radius: 8px;
+    background-color: transparent;
+    height: 1.5rem;
+    padding: 0.3rem 0.7rem;
+    cursor: var(--cursor);
+    font-size: 1rem;
+}
+
+#close-modal-button:hover {
+    font-size: 1.2rem;
+
+}
+
+#button_create_category_modal, #button_create_task_modal  {
+    font-family: 'Roboto', sans-serif; 
+    color: var(--purple-lightness);
+    border: none;
+    border-radius: 4px;
+    background-color: var(--purple-darkness);
+    height: 1.5rem;
+    cursor: var(--cursor);
+    font-size: 1rem;
+}
+
+#button_create_category_modal:hover, #button_create_task_modal:hover {
+    opacity: 70%;
+}
+
+

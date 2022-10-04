@@ -1,0 +1,36 @@
+body {
+    background-color: var(--rose);
+
+   
+
+}
+main {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#container-all {
+    width: 90%;
+    height: 100vh
+  
+}
+
+#container-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    width: 100%;
+    margin-top: 2rem;
+    box-shadow:  8px 14px -2px var(--gray-lightness);
+
+}
+
+.category {
+    margin-bottom: 0.5rem;
+    
+}
+
+.container-category {
+    margin: 1.5rem 0rem;
+}
