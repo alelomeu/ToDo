@@ -143,7 +143,7 @@ const createModal = (form) => {
     const buttonCloseModal = document.createElement('button');
     buttonCloseModal.type = "button";
     buttonCloseModal.id = "close-modal-button";
-    buttonCloseModal.innerText = "X"
+    buttonCloseModal.innerText = "x"
 
 
     closeModal.appendChild(buttonCloseModal);
@@ -229,6 +229,7 @@ const addEventModalClose = () => {
  const creatNewCategory = () => {
     const modal = document.querySelector("#modal")
     const form = document.querySelector("#form_category")
+    
 
     form.addEventListener("submit", (event) => {
         event.preventDefault()
@@ -238,7 +239,7 @@ const addEventModalClose = () => {
             name: elements[0].value,
             tasks: []
         }
-
+        
         categoryList.push(creatNewCategory)
         renderCategories(categoryList)
         modal.remove()
