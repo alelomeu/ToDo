@@ -114,7 +114,7 @@ const categoryCard = (cartegory) =>{
 
 const renderCategories = (categoryList) => {
 const allCategories = document.querySelector("#main-category")
-    allCategories.innerHTML = ""
+    allCategories.innerHTML = ''
 
     categoryList.forEach((category) => {
         const card = categoryCard(category)
@@ -122,6 +122,7 @@ const allCategories = document.querySelector("#main-category")
         allCategories.appendChild(card)
         
     })
+
     renderCards(categoryList)
     addEventModalOpen()
 }
@@ -186,7 +187,7 @@ const createTaskForm = (btnId) => {
     return container
 } 
 
-const addEventModalOpen = () => {
+function addEventModalOpen () {
     const buttonsOpen = document.querySelectorAll(".open_modal")
 
     buttonsOpen.forEach((button) =>{
@@ -198,19 +199,29 @@ const addEventModalOpen = () => {
                     const modalContainer = document.querySelector("#modal-container")
                     modalContainer.appendChild(createTaskForm(button.id))
                     createNewTask ()
-                } else {
+                    
+                } else if (classButton.includes("create-category")){
+                    console.log("oi")
+
+                    const bodyFinder = body.childNodes
+                    bodyFinder.forEach ((elements) => {
+                        if (elements.id == "modal"){
+                            const modal = document.querySelector("#modal")
+                            modal.remove()
+                        }
+                    })
+
                     body.appendChild(createModal())
                     const modalContainer = document.querySelector("#modal-container")
                     modalContainer.appendChild(createCategoryForm())
-                    creatNewCategory() 
+                    creatNewCategory()                     
                 }
+                
                 addEventModalClose() 
             })
         })
               
 }
-
-
 
 const addEventModalClose = () => {
     const buttonClose = document.querySelector("#close-modal-button") 
@@ -223,10 +234,8 @@ const addEventModalClose = () => {
 
  }
 
- renderCategories(categoryList)
-
-
  const creatNewCategory = () => {
+   
     const modal = document.querySelector("#modal")
     const form = document.querySelector("#form_category")
     
@@ -257,10 +266,8 @@ const addEventModalClose = () => {
         const elements = form.elements
 
         const categoryClass = form.classList[1].slice(4)
-        console.log (categoryClass)
 
         const findCategory = categoryList.find((category) => category.name.toLocaleLowerCase() === categoryClass)
-        console.log (findCategory)
 
         const dateTask = new Date()
 
@@ -270,9 +277,10 @@ const addEventModalClose = () => {
         }
 
         findCategory.tasks.push(createNewTask)
-
         renderCards(categoryList)
         modal.remove()
 
     })
  }
+
+ renderCategories(categoryList)
