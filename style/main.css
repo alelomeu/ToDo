@@ -1,5 +1,5 @@
 body {
-    background-color: var(--rose);
+    background-color: var(--baby-blue-eyes);
 
    
 
@@ -22,15 +22,31 @@ main {
     margin-bottom: 2rem;
     width: 100%;
     margin-top: 2rem;
-    box-shadow:  8px 14px -2px var(--gray-lightness);
+    box-shadow:  8px 14px -2px var(--black-coral);
 
 }
 
 .category {
     margin-bottom: 0.5rem;
+    width: 250px;
+    background-color: var(--manatee);
+    border-radius: 8px;
+    padding: 0 0.5rem 1rem 0.5rem;
+
     
 }
 
 .container-category {
-    margin: 1.5rem 0rem;
+    margin: 1.5rem ;
+    align-items: center;
+    height: 1.5rem;
+}
+
+#main-category {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-items: center;
+    justify-content: center;
+
 }

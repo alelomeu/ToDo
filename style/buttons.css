@@ -1,9 +1,11 @@
 .create-category{
     font-family: 'Roboto', sans-serif; 
-    color: var(--purple-lightness);
+    color: var(--baby-blue-eyes);
     border: none;
     border-radius: 8px;
-    background-color: var(--purple-darkness);
+    background-color: var(--oxford-blue-3);
+    cursor: var(--cursor);
+
 }
 
 .create-category:hover {
@@ -19,7 +21,9 @@
     height: 1rem;
     border: none;
     background-color: transparent;
-  
+
+    
+    
 }
 
 .trash-button:hover {
@@ -32,34 +36,37 @@
     align-self: center;
     height: min-content;
     font-size: 1rem;
+    cursor: var(--cursor);
+    
 }
 .create-task:hover {
-    font-size: 1.5rem;
+    font-weight:900
 }
 
 #close-modal-button {
     font-family: 'Roboto', sans-serif; 
-    color: var(--purple-lightness);
+    color: var(--blue-jeans);
     border: none;
     border-radius: 8px;
     background-color: transparent;
-    height: 1.5rem;
+    height: 1.75rem;
     padding: 0.3rem 0.7rem;
     cursor: var(--cursor);
     font-size: 1rem;
+    align-items: center;
 }
 
 #close-modal-button:hover {
-    font-size: 1.2rem;
+    font-weight: 900;
 
 }
 
 #button_create_category_modal, #button_create_task_modal  {
     font-family: 'Roboto', sans-serif; 
-    color: var(--purple-lightness);
+    color: var(--baby-blue-eyes);
     border: none;
     border-radius: 4px;
-    background-color: var(--purple-darkness);
+    background-color: var(--oxford-blue-3);
     height: 1.5rem;
     cursor: var(--cursor);
     font-size: 1rem;

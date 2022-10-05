@@ -1,16 +1,19 @@
 :root{
     font-family: 'Roboto', sans-serif;
-    --purple-darkness: #231942;
-    --purple: #5E548E;
-    --pulple-suport: #9F86C0;
-    --purple-lightness: #BE95C4;
-    --rose: #f7d4e7;
-    --gray-lightness: rgb(148, 147, 147);
-    --gray-light: rgb(197, 194, 194);
-    --gray-darkness: rgb(65, 63, 63);
-    --modal-bg:rgba(65, 63, 63, 0.441);
     --cursor: pointer;
  
+
+    --baby-blue-eyes: rgb(195, 222, 248);
+    --blue-jeans: rgb(127, 161, 196);
+    --dark-cornflower-blue: #023e7dff;
+    --oxford-blue: #002855ff;
+    --oxford-blue-2: #001845ff;
+    --oxford-blue-3: #001233ff;
+    --independence: #33415cff;
+    --black-coral: #5c677dff;
+    --manatee: rgba(151, 157, 172, 0.384);
+    --light-gray: #d2d4dbff;
+
 
 }
 

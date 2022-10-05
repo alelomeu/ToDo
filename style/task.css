@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     border-radius: 4px;
-    border-bottom: 0.5px solid var(--purple-lightness);
+    border-bottom: 0.5px solid var(--blue-jeans);
     padding-bottom: 0.5rem;
     padding: 0.5rem;
     align-content: center;
@@ -24,7 +24,7 @@
 h1 {
     font-size: 1.625rem;
     font-weight: 900;
-    color: var(--purple-darkness);
+    color: var(--oxford-blue-3);
 }
 
 
@@ -32,29 +32,29 @@ h1 {
 h2 {
     font-size: 1.3rem;
     font-weight: 700;
-    color: var(--purple-darkness);
+    color: var(--oxford-blue-2);
 
 }
 
 h3 {
     font-size: 1.1rem;
     font-weight: 300;
-    color: var(--gray-darkness);
+    color: var(--oxford-blue-3);
 }
 
 p {
     font-size: 0.813rem;
     font-weight: 200;
-    color: var(--gray-lightness);
+    color: var(--oxford-blue-3);
 }
 
 .line-through{
     text-decoration: line-through;
-    color: var(--gray-light);
+    color: var(--light-gray);
 }
 
 input[type=checkbox]{
-    accent-color: var(--purple);
+    accent-color: var(--dark-cornflower-blue);
     width: 1rem;
     height: 1rem;
 }

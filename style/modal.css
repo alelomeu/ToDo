@@ -7,7 +7,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color: var(--modal-bg);
+    background-color: var(--manatee);
 }
 
 #modal-container {
@@ -15,14 +15,14 @@
     width: 80%;
     min-height: 150px;
     max-width: 600px;
-    background-color: var(--rose);
+    background-color: var(--baby-blue-eyes);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 #close-modal {
-    background-color: var(--purple-darkness);
+    background-color: var(--oxford-blue-3);
     width: 100%;
     border-radius: 8px 8px 0 0;
     display: flex;
@@ -56,7 +56,7 @@
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
     border-radius: 8px;
-    border: 1px solid var(--purple-darkness);
+    border: 1px solid var(--oxford-blue-3);
     background-color: transparent;
     align-items: center;
     padding-left: 0.5rem;
